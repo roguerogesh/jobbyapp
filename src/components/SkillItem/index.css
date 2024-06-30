@@ -1,0 +1,22 @@
+.skill-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 8px;
+}

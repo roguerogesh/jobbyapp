@@ -1,0 +1,111 @@
+.job-item-details-bg-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 100%;
+  background-size: cover;
+}
+
+.job-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: rgb(58, 53, 53);
+  padding: 30px;
+  border-radius: 25px;
+  margin-right: 40px;
+}
+.link-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.logo-and-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.job-details {
+  flex: 1;
+}
+
+h1 {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+.location-employment-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.package {
+  align-self: flex-end;
+}
+
+.location-employment {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal-line {
+  color: #ffffff;
+}
+
+.icons {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.star-icon {
+  color: yellow;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.visit-button {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.life_at_company {
+  display: flex;
+  align-items: center;
+}
